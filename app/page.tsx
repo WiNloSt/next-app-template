@@ -1,9 +1,16 @@
-import { Shell } from '../components/Shell';
+'use client';
+
+import { Title } from '@mantine/core';
+import { Analytics } from '@/components/Analytics';
+import { Shell } from '@/components/Shell';
 
 export default function HomePage() {
   return (
     <>
-      <Shell>Overview page</Shell>
+      <Shell>
+        <Title order={1}>Overview</Title>
+        <Analytics />
+      </Shell>
     </>
   );
 }
