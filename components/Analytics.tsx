@@ -7,7 +7,7 @@ const config = {
   jwtProviderUri: '/api/sso/metabase', // Required: An endpoint in your app that returns signs the user in and delivers a token
 };
 
-export function Analytics() {
+export default function Analytics() {
   return (
     <MetabaseProvider config={config}>
       <InteractiveQuestion questionId={2249} />

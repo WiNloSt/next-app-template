@@ -3954,7 +3954,7 @@ __metadata:
 
 "@metabase/embedding-sdk-react@file:../../metabase/resources/embedding-sdk::locator=mantine-next-template%40workspace%3A.":
   version: 0.1.37
-  resolution: "@metabase/embedding-sdk-react@file:../../metabase/resources/embedding-sdk#../../metabase/resources/embedding-sdk::hash=a04bbe&locator=mantine-next-template%40workspace%3A."
+  resolution: "@metabase/embedding-sdk-react@file:../../metabase/resources/embedding-sdk#../../metabase/resources/embedding-sdk::hash=dfee5e&locator=mantine-next-template%40workspace%3A."
   dependencies:
     "@dnd-kit/core": "npm:^6.0.8"
     "@dnd-kit/modifiers": "npm:^6.0.1"
@@ -4077,7 +4077,7 @@ __metadata:
     react-dom: ">=17 <=18"
   bin:
     embedding-sdk-react: ./dist/cli.js
-  checksum: 10c0/ca519015d44e59e12a2972a1a5029eacc1d0e349d6d8a4ffb342cbed4c45de8181cb1e6c60af7a226a15bc29f25f142f415d763327b77badbe15fffde8e3f2c7
+  checksum: 10c0/3d3c0f8fa8b2a0433824ce0d77e27e19f64cfeb73c2bed3502111cf4500856e391daeedee6395e9b2889ae4dcfa39cdbd6e687c33fafd3aeaa1a1603a95fbbf4
   languageName: node
   linkType: hard
 
