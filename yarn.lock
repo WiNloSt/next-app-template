@@ -3849,6 +3849,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@juggle/resize-observer@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@juggle/resize-observer@npm:3.4.0"
+  checksum: 10c0/12930242357298c6f2ad5d4ec7cf631dfb344ca7c8c830ab7f64e6ac11eb1aae486901d8d880fd08fb1b257800c160a0da3aee1e7ed9adac0ccbb9b7c5d93347
+  languageName: node
+  linkType: hard
+
 "@mantine/core@npm:7.13.0":
   version: 7.13.0
   resolution: "@mantine/core@npm:7.13.0"
@@ -3953,8 +3960,8 @@ __metadata:
   linkType: hard
 
 "@metabase/embedding-sdk-react@file:../../metabase/resources/embedding-sdk::locator=mantine-next-template%40workspace%3A.":
-  version: 0.1.37
-  resolution: "@metabase/embedding-sdk-react@file:../../metabase/resources/embedding-sdk#../../metabase/resources/embedding-sdk::hash=dfee5e&locator=mantine-next-template%40workspace%3A."
+  version: 0.1.38
+  resolution: "@metabase/embedding-sdk-react@file:../../metabase/resources/embedding-sdk#../../metabase/resources/embedding-sdk::hash=f74ead&locator=mantine-next-template%40workspace%3A."
   dependencies:
     "@dnd-kit/core": "npm:^6.0.8"
     "@dnd-kit/modifiers": "npm:^6.0.1"
@@ -3963,6 +3970,7 @@ __metadata:
     "@emotion/is-prop-valid": "npm:^1.1.1"
     "@emotion/react": "npm:^11.11.0"
     "@emotion/styled": "npm:^11.11.0"
+    "@juggle/resize-observer": "npm:^3.4.0"
     "@mantine/core": "npm:^6.0.13"
     "@mantine/dates": "npm:^6.0.13"
     "@mantine/hooks": "npm:^6.0.13"
@@ -4077,7 +4085,7 @@ __metadata:
     react-dom: ">=17 <=18"
   bin:
     embedding-sdk-react: ./dist/cli.js
-  checksum: 10c0/3d3c0f8fa8b2a0433824ce0d77e27e19f64cfeb73c2bed3502111cf4500856e391daeedee6395e9b2889ae4dcfa39cdbd6e687c33fafd3aeaa1a1603a95fbbf4
+  checksum: 10c0/1d814e0d03554b50d1a60f2d99e0c0cc68f42d2cdc809134edcd9f6f43fb68ced7fa131b631e5fbd37dadc63f4d4a9d0363e878b571c92edddc6c7dc6ddf87d2
   languageName: node
   linkType: hard
 
