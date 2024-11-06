@@ -14,7 +14,7 @@ import { Divider, Title } from '@mantine/core';
 
 const config = {
   metabaseInstanceUrl: 'http://localhost:3000', // Required: Your Metabase instance URL
-  jwtProviderUri: '/api/sso/metabase', // Required: An endpoint in your app that returns signs the user in and delivers a token
+  jwtProviderUri: '/sso/metabase', // Required: An endpoint in your app that returns signs the user in and delivers a token
 };
 
 export default function Analytics() {
