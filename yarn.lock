@@ -3959,9 +3959,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metabase/embedding-sdk-react@file:../../metabase/resources/embedding-sdk::locator=mantine-next-template%40workspace%3A.":
-  version: 0.1.38
-  resolution: "@metabase/embedding-sdk-react@file:../../metabase/resources/embedding-sdk#../../metabase/resources/embedding-sdk::hash=f74ead&locator=mantine-next-template%40workspace%3A."
+"@metabase/embedding-sdk-react@npm:^1.51.2":
+  version: 1.51.2
+  resolution: "@metabase/embedding-sdk-react@npm:1.51.2"
   dependencies:
     "@dnd-kit/core": "npm:^6.0.8"
     "@dnd-kit/modifiers": "npm:^6.0.1"
@@ -4048,7 +4048,7 @@ __metadata:
     react-grid-layout: "npm:^1.2.5"
     react-innertext: "npm:^1.1.5"
     react-is: "npm:^18.2.0"
-    react-markdown: "npm:^8.0.4"
+    react-markdown: "npm:^8.0.7"
     react-redux: "npm:^9.1.2"
     react-resizable: "npm:^3.0.5"
     react-router: "npm:3"
@@ -4084,8 +4084,8 @@ __metadata:
     react: ">=17 <=18"
     react-dom: ">=17 <=18"
   bin:
-    embedding-sdk-react: ./dist/cli.js
-  checksum: 10c0/1d814e0d03554b50d1a60f2d99e0c0cc68f42d2cdc809134edcd9f6f43fb68ced7fa131b631e5fbd37dadc63f4d4a9d0363e878b571c92edddc6c7dc6ddf87d2
+    embedding-sdk-react: dist/cli.js
+  checksum: 10c0/721bd984938a72b4a6df3dd9e5c85f5a7cf8947e79b0bb6c179aa81ba6f9f24eb382d9919a9a3f5781b5c9613d5a53edac3fc502d12f6a22337c954e7ded1f2b
   languageName: node
   linkType: hard
 
@@ -15618,7 +15618,7 @@ __metadata:
     "@ianvs/prettier-plugin-sort-imports": "npm:^4.3.1"
     "@mantine/core": "npm:7.13.0"
     "@mantine/hooks": "npm:7.13.0"
-    "@metabase/embedding-sdk-react": ../../metabase/resources/embedding-sdk
+    "@metabase/embedding-sdk-react": "npm:^1.51.2"
     "@next/bundle-analyzer": "npm:^14.2.4"
     "@next/eslint-plugin-next": "npm:^14.2.4"
     "@storybook/addon-essentials": "npm:^8.1.10"
@@ -18580,7 +18580,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-markdown@npm:^8.0.4":
+"react-markdown@npm:^8.0.7":
   version: 8.0.7
   resolution: "react-markdown@npm:8.0.7"
   dependencies:
