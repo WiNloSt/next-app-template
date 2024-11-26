@@ -9,12 +9,13 @@ import {
   MetabaseProvider,
   StaticDashboard,
   StaticQuestion,
+  type SDKConfig,
 } from '@metabase/embedding-sdk-react';
 import { Divider, Title } from '@mantine/core';
 
-const config = {
+const config: SDKConfig = {
   metabaseInstanceUrl: 'http://localhost:3000', // Required: Your Metabase instance URL
-  jwtProviderUri: '/sso/metabase', // Required: An endpoint in your app that returns signs the user in and delivers a token
+  authProviderUri: '/sso/metabase', // Required: An endpoint in your app that returns signs the user in and delivers a token
 };
 
 export default function Analytics() {
